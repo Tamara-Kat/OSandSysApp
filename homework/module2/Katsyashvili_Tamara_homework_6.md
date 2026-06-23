@@ -118,6 +118,7 @@ echo "Error line 1" > ~/test_logs/error.log
 ```bash
 chmod +x backup.sh
 ```
+![Скріншот](scr\hw6\1.1.jpg)
 
 ### Запуск скрипта з правильними аргументами
 
@@ -125,10 +126,10 @@ chmod +x backup.sh
 ./backup.sh ~/test_logs ~/test_backup
 ```
 
-### Очікуваний результат:
+### Результат:
 
 ```bash
-Backup created: /home/tamara/test_backup/logs_backup_YYYY-MM-DD_HH-MM.tar.gz
+Backup created:  /home/tamara/test_backup/logs_backup_2026-06-23_16-54.tar.gz
 ```
 
 ### Перевірка створеного архіву
@@ -136,7 +137,7 @@ Backup created: /home/tamara/test_backup/logs_backup_YYYY-MM-DD_HH-MM.tar.gz
 ```bash
 ls -l ~/test_backup
 ```
-
+![Скріншот](scr\hw6\1.2.jpg)
 ## Перевірка помилкових сценаріїв
 ### Запуск без аргументів
 
@@ -175,7 +176,7 @@ rm /tmp/backup.lock
 Backup already running
 ```
 
-![Скріншот](scr\hw6\4.1.jpg)
+![Скріншот](scr\hw6\1.3.jpg)
 
 ### Висновок
 ```
